@@ -1,0 +1,10 @@
+.background {
+    background: pink;
+    height: 100vh;
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    background: lightblue;
+}
