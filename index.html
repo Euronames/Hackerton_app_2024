@@ -24,7 +24,11 @@
         startiapp.addEventListener(
             'ready',
             function () {
-                startiapp.initialize();
+                startiapp.initialize({
+                    statusBar: {
+                        removeSafeArea: true
+                    }
+                });
             }
         );
     </script>
